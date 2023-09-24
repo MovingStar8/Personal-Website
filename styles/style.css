@@ -1,3 +1,9 @@
+/* body */
+#home {
+  width: 100%;
+  height: 100%;
+}
+
 /* navbar */
 .navbar {
   background-color: black;
@@ -19,10 +25,15 @@
   background-color: #808080;
   color: white;
   border: none;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 .btn:hover {
+  background-color: #320064;
+  color: white;
+}
+
+.btn-project:hover {
   background-color: #320064;
   color: white;
 }
@@ -37,10 +48,10 @@
 .jumbo-name {
   color: white;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 .jumbo-desc {
-  margin-top: 10px;
+  margin-top: 16px;
   color: white;
 }
 
@@ -53,14 +64,14 @@
 .about-title {
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .about-text {
   justify-content: center;
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 /* skills */
@@ -72,7 +83,7 @@
 .skills-title {
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 /* projects */
@@ -84,31 +95,38 @@
 .projects-title {
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 /* contact */
-#contact {
+#contact,
+#contact2 {
   padding-top: 80px;
   background-color: #141414;
 }
 
-.socials-title,
+.socials-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
 .contact-title {
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .contact-text {
   justify-content: center;
   color: white;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .contact-margin {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 /* footer */
@@ -117,10 +135,95 @@
   background-color: black;
   color: white;
   text-align: center;
-  padding-top: 8px;
-  padding-bottom: 4px;
+  padding-top: 16px;
+  padding-bottom: 8px;
 }
 
 .footer-link {
   color: white;
+}
+
+/* card */
+.card-template-logo {
+  width: auto;
+  background-color: none;
+  justify-content: center;
+}
+
+.card-template-project {
+  width: auto;
+  background-color: #141414;
+  justify-content: center;
+}
+.card-skills {
+  justify-content: center;
+  align-items: top;
+}
+
+.skills-card {
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.card-socials {
+  justify-content: center;
+  align-items: top;
+}
+
+.socials-card {
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.card-projects {
+  justify-content: center;
+  align-items: top;
+}
+
+.projects-card {
+  justify-content: center;
+  margin-bottom: 32x;
+}
+
+.projects-card-body {
+  justify-content: center;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.projects-card-title,
+.projects-card-desc {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top: 24px;
+}
+
+.projects-card-text {
+  justify-content: center;
+  text-align: justify;
+  color: white;
+  margin-top: 24px;
+}
+
+/* image */
+.image-skills {
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+}
+
+.image-skills:hover {
+  zoom: 130%;
+}
+
+.image-socials {
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+}
+
+.image-socials:hover {
+  zoom: 130%;
 }
