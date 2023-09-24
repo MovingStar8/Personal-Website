@@ -1,24 +1,126 @@
-.jumbotron {
-  padding-top: 88px;
-  background-color: white;
+/* navbar */
+.navbar {
+  background-color: black;
 }
 
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #320064;
+}
+
+/* button */
+.btn {
+  justify-content: center;
+  background-color: #808080;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #320064;
+  color: white;
+}
+
+/* jumbotron */
+.jumbotron {
+  padding-top: 128px;
+  background-color: #141414;
+  text-align: center;
+}
+
+.jumbo-name {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+.jumbo-desc {
+  margin-top: 10px;
+  color: white;
+}
+
+/* about */
 #about {
   padding-top: 80px;
-  background-color: grey;
+  background-color: #282828;
 }
 
+.about-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* skills */
 #skills {
   padding-top: 80px;
-  background-color: white;
+  background-color: #141414;
 }
 
+.skills-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* projects */
 #projects {
   padding-top: 80px;
-  background-color: grey;
+  background-color: #282828;
 }
 
+.projects-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* contact */
 #contact {
   padding-top: 80px;
-  background-color: white;
+  background-color: #141414;
+}
+
+.socials-title,
+.contact-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  justify-content: center;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contact-margin {
+  margin-bottom: 20px;
+}
+
+/* footer */
+.footer {
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+
+.footer-link {
+  color: white;
 }
