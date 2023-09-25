@@ -1,0 +1,17 @@
+#about {
+  padding-top: 80px;
+  background-color: #282828;
+}
+
+.about-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.about-text {
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}

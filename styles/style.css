@@ -1,31 +1,18 @@
-/* body */
-#home {
+body {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-/* navbar */
-.navbar {
-  background-color: black;
-}
-
-.navbar-brand,
-.nav-link {
-  color: white;
-}
-
-.nav-link:hover,
-.navbar-brand:hover {
-  color: #320064;
-}
-
-/* button */
 .btn {
   justify-content: center;
   background-color: #808080;
   color: white;
   border: none;
   margin-top: 16px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -33,119 +20,38 @@
   color: white;
 }
 
-.btn-project:hover {
+.btn-projects {
+  margin-bottom: 16px;
+}
+
+.btn-projects:hover {
   background-color: #320064;
   color: white;
 }
 
-/* jumbotron */
-.jumbotron {
-  padding-top: 128px;
-  background-color: #141414;
-  text-align: center;
+/* image */
+.image-skills {
+  width: 96px;
+  height: 96px;
 }
 
-.jumbo-name {
-  color: white;
-  text-align: center;
-  margin-top: 24px;
-}
-.jumbo-desc {
-  margin-top: 16px;
-  color: white;
+.image-skills:hover {
+  zoom: 130%;
 }
 
-/* about */
-#about {
-  padding-top: 80px;
-  background-color: #282828;
+.image-socials {
+  width: 96px;
+  height: 96px;
 }
 
-.about-title {
-  color: white;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-.about-text {
-  justify-content: center;
-  color: white;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-/* skills */
-#skills {
-  padding-top: 80px;
-  background-color: #141414;
-}
-
-.skills-title {
-  color: white;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-/* projects */
-#projects {
-  padding-top: 80px;
-  background-color: #282828;
-}
-
-.projects-title {
-  color: white;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-/* contact */
-#contact,
-#contact2 {
-  padding-top: 80px;
-  background-color: #141414;
-}
-
-.socials-title {
-  color: white;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-.contact-title {
-  color: white;
-  text-align: center;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-.contact-text {
-  justify-content: center;
-  color: white;
-  text-align: left;
-  margin-bottom: 24px;
-}
-
-.contact-margin {
-  margin-bottom: 24px;
-}
-
-/* footer */
-.footer {
-  justify-content: center;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding-top: 16px;
-  padding-bottom: 8px;
-}
-
-.footer-link {
-  color: white;
+.image-socials:hover {
+  zoom: 130%;
 }
 
 /* card */
 .card-template-logo {
-  width: auto;
+  width: 100%;
+  margin: auto;
   background-color: none;
   justify-content: center;
 }
@@ -205,25 +111,4 @@
   text-align: justify;
   color: white;
   margin-top: 24px;
-}
-
-/* image */
-.image-skills {
-  width: 96px;
-  height: 96px;
-  justify-content: center;
-}
-
-.image-skills:hover {
-  zoom: 130%;
-}
-
-.image-socials {
-  width: 96px;
-  height: 96px;
-  justify-content: center;
-}
-
-.image-socials:hover {
-  zoom: 130%;
 }

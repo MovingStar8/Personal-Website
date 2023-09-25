@@ -1,0 +1,29 @@
+#contact,
+#contact2 {
+  padding-top: 80px;
+  background-color: #141414;
+}
+
+.socials-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.contact-title {
+  color: white;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.contact-text {
+  justify-content: center;
+  color: white;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.contact-margin {
+  margin-bottom: 24px;
+}
