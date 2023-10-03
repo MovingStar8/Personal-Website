@@ -1,114 +1,117 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 }
 
 .btn {
-  justify-content: center;
-  background-color: #808080;
-  color: white;
-  border: none;
-  margin-top: 16px;
-  text-align: center;
+	justify-content: center;
+	background-color: #808080;
+	color: white;
+	border: none;
+	margin-top: 16px;
+	text-align: center;
 }
 
 .btn:hover {
-  background-color: #320064;
-  color: white;
+	background-color: #320064;
+	color: white;
 }
 
 .btn-projects {
-  margin-bottom: 16px;
+	margin-bottom: 16px;
 }
 
 .btn-projects:hover {
-  background-color: #320064;
-  color: white;
+	background-color: #320064;
+	color: white;
 }
 
 /* image */
 .image-skills {
-  width: 96px;
-  height: 96px;
+	width: 96px;
+	height: 96px;
 }
 
 .image-skills:hover {
-  zoom: 130%;
+	zoom: 130%;
 }
 
 .image-socials {
-  width: 96px;
-  height: 96px;
+	width: 96px;
+	height: 96px;
 }
 
 .image-socials:hover {
-  zoom: 130%;
+	zoom: 130%;
 }
 
 /* card */
 .card-template-logo {
-  width: 100%;
-  margin: auto;
-  background-color: none;
-  justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+	background-color: none;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .card-template-project {
-  width: auto;
-  background-color: #141414;
-  justify-content: center;
+	width: auto;
+	background-color: #141414;
+	justify-content: center;
 }
 .card-skills {
-  justify-content: center;
-  align-items: top;
+	justify-content: center;
+	align-items: top;
 }
 
 .skills-card {
-  justify-content: center;
-  margin-bottom: 32px;
+	justify-content: center;
+	margin-bottom: 32px;
 }
 
 .card-socials {
-  justify-content: center;
-  align-items: top;
+	justify-content: center;
+	align-items: top;
 }
 
 .socials-card {
-  justify-content: center;
-  margin-bottom: 48px;
+	justify-content: center;
+	margin-bottom: 48px;
 }
 
 .card-projects {
-  justify-content: center;
-  align-items: top;
+	justify-content: center;
+	align-items: top;
 }
 
 .projects-card {
-  justify-content: center;
-  margin-bottom: 32x;
+	justify-content: center;
+	margin-bottom: 32x;
 }
 
 .projects-card-body {
-  justify-content: center;
-  margin-bottom: 32px;
-  margin-left: 16px;
-  margin-right: 16px;
+	justify-content: center;
+	margin-bottom: 32px;
+	margin-left: 16px;
+	margin-right: 16px;
 }
 
 .projects-card-title,
 .projects-card-desc {
-  justify-content: center;
-  text-align: center;
-  color: white;
-  margin-top: 24px;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	margin-top: 24px;
 }
 
 .projects-card-text {
-  justify-content: center;
-  text-align: justify;
-  color: white;
-  margin-top: 24px;
+	justify-content: center;
+	text-align: justify;
+	color: white;
+	margin-top: 24px;
 }
